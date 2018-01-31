@@ -1,0 +1,45 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- removido o cabeçalho
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>intro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+-->
+<!--padding removido do ion-content, responsável por uma moldura no app-->
+<ion-content >
+  <ion-slides pager>
+
+    <!--<ion-slide style="background-color: green"> -->
+    <ion-slide class="slide_image">
+      <img src= "../../assets/imgs/slide-intro1.png" alt="">
+      <h2 class="slide_title">Zona Azul Eletrônico</h2>
+      <p>
+      <div>
+        Bem vindo ao Aplicativo do Zona Azul Recife.
+        <p></p>
+          <a (click)="goToPaginaPrincipal()">
+              <strong> \Acesse...</strong>
+        </a> 
+      </div>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src= "../../assets/imgs/slide-intro2.png" alt="">
+      <h2 class="slide_title">Slide 2</h2>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src= "../../assets/imgs/slide-intro3.png" alt="">
+      <h2 class="slide_title">Slide 3</h2>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
